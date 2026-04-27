@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $user = "root";
-$password = "Cvv5157345*";
+$password = "===============";
 $database = "supermercado_db";
 $port = "3308";
 
