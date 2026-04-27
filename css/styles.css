@@ -1,0 +1,199 @@
+/* Reset basico para evitar problemas de tamaño */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* ===== HEADER ===== */
+
+/* Encabezado centrado */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Contenedor del menu */
+nav {
+    margin-top: 10px;
+}
+
+/* Links del menu */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== SECCIONES ===== */
+
+/* Contenedor general de secciones */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Centrar titulos */
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+/* ===== PRODUCTOS ===== */
+
+/* Contenedor flexible */
+.productos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*===============================*/
+
+/*SE ADICIONA ESTA SECCIÓN QUE AJUSTA LOS BOTONES DEL CRUD PARA QUE ENCAJEN CON EL DISEÑO*/
+
+#mensajeProducto {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td button {
+    margin: 5px;
+    width: auto;
+    padding: 8px 12px;
+}
+
+.btn-editar {
+    background: #2c3e50;
+}
+
+.btn-editar:hover {
+    background: #34495e;
+}
+
+.btn-eliminar {
+    background: #2c3e50;
+}
+
+.btn-eliminar:hover {
+    background: #34495e;
+}
+
+/*===============================*/
+
+/* Tarjetas */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    background: #fafafa;
+    transition: transform 0.2s;
+}
+
+/* Hover efecto */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Imagenes */
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* ===== TABLA ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Centrar contenido de la tabla */
+td {
+    text-align: center;
+}
+
+/* ===== FORMULARIO ===== */
+
+/* Centrar formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Etiquetas del formulario */
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Boton */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Hover boton */
+button:hover {
+    background: #34495e;
+}
+
+/* ===== MENSAJE ===== */
+
+/* Centrar mensaje dinamico */
+#mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ===== FOOTER ===== */
+
+/* Pie de pagina */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
